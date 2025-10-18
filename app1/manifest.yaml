@@ -51,10 +51,10 @@ metadata:
   name: app1
   annotations:
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:454046153308:certificate/fa4b668d-0d51-4c57-8ffe-fc9d777e7e2e
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:454046153308:certificate/e8b4ebd9-f487-4415-a71f-2f593a2df569
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
-    #alb.ingress.kubernetes.io/group.name: venuuu
+    alb.ingress.kubernetes.io/group.name: venuuu
 spec:
   ingressClassName: alb
   rules:
